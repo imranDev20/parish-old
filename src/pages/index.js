@@ -27,7 +27,7 @@ const IndexPage = () => {
   return (
     <>
       {loading ? (
-        <div className="justify-center h-screen items-center flex flex-col gap-10">
+        <div className="justify-center h-[90vh]  items-center flex flex-col gap-10">
           <Logo />
           <progress className="pure-material-progress-linear" />
           </div>
