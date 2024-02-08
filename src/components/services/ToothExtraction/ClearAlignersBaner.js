@@ -1,11 +1,10 @@
 import { Button } from "@material-tailwind/react";
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 const ClearAlignersBaner = () => {
   return (
     <section className="relative before:content-[''] before:absolute before:left-0 before:top-0 before:w-full before:h-full before:bg-[rgba(38,51,56,.80)] before:z-[1] before:opacity-70">
-      <StaticImage
+      <img
         layout="fullWidth"
         className="h-screen"
         src=""

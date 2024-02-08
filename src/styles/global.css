@@ -218,9 +218,7 @@ input[type="number"] {
   padding: 0 15%;
 }
 
-@media screen and (max-width: 480px) {
- 
-}
+
 
 /* start */
 .pure-material-progress-linear {
@@ -286,7 +284,16 @@ input[type="number"] {
   }
 }
 /* start */
-
+@media screen and (max-width: 480px) {
+  .swiper-button-next:after, .swiper-button-prev:after{
+    display: none;
+  }
+  .hero-slide1 {
+    height: 50vh !important;
+   
+  }
+  
+}
 .hero-slide1 {
   height: 80vh;
   background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693907556/lovely-woman-smile_spcbk4.jpg);
