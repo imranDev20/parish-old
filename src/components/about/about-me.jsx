@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { StaticImage } from "gatsby-plugin-image"
+
 
 // Import Swiper styles
 import "swiper/swiper.min.css";
@@ -30,21 +32,21 @@ const WhyChooseUs = () => {
               >
 
                 <SwiperSlide>
-                  <img
+                  <StaticImage
                     className="image object-cover	h-[300px] md:h-[450px] w-full"
                     src="https://res.cloudinary.com/db1i46uiv/image/upload/v1706714278/Picture1_kxskcr.png"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img
+                  <StaticImage
                     className="image object-cover h-[300px] md:h-[450px]	 w-full"
                     src="https://res.cloudinary.com/db1i46uiv/image/upload/v1706714227/Picture2_kwr8fl.png"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img
+                  <StaticImage
                     className="image object-cover	h-[300px] md:h-[450px] w-full"
                     src="https://res.cloudinary.com/db1i46uiv/image/upload/v1706714228/Picture3_qq0xbh.png"
                     alt=""
@@ -61,7 +63,7 @@ const WhyChooseUs = () => {
               </p>
             </div>
             <div className="cardlist">
-              <img
+              <StaticImage
                 src="https://res.cloudinary.com/db1i46uiv/image/upload/v1697922260/icons8-inverted-commas-48_rxeuf2.png"
                 alt=""
               />

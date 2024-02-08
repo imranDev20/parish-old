@@ -3,6 +3,7 @@ import React from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import useServicesQuery from "../../hooks/useServicesQuery";
 import { customSlugify } from "../../common/utils";
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const Services = () => {
   const services = useServicesQuery();
@@ -13,7 +14,7 @@ const Services = () => {
         return (
           <div key={service?.contentful_id} className="flex my-3 items-start">
             <div className="w-3/12 mr-3">
-              <img
+              <GatsbyImage
                 width={80}
                 height={80}
                 src={service.icon.url}

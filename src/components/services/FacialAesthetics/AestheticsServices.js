@@ -6,6 +6,8 @@ import ChemicalPeelIcon from "../../../images/icons/chemical-peels.svg";
 import LipEnhanceIcon from "../../../images/icons/lip-enhance.svg";
 import SkinRejuvenIcon from "../../../images/icons/skin-rejuvenation.svg";
 import MicroneedlingIcon from "../../../images/icons/microneedling.svg";
+import { GatsbyImage } from "gatsby-plugin-image"
+
 
 const AestheticsServices = () => {
   const aesthetics = [
@@ -60,7 +62,7 @@ const AestheticsServices = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {aesthetics.map((item) => (
           <div className="flex flex-col items-center bg-[#242625] rounded-md p-5 shadow-lg">
-            <img src={item.icon} alt="" width={80} />
+            <GatsbyImage src={item.icon} alt="" width={80} />
             <h4 className="text-center mt-3 text-2xl font-medium mb-3">
               {item.name}
             </h4>

@@ -7,6 +7,8 @@ import MobileMenu from "./MobileMenu";
 import { Button } from "@material-tailwind/react";
 import { Link } from "gatsby";
 import { FiMapPin, FiPhone, FiMail, FiClock } from "react-icons/fi";
+import { StaticImage } from "gatsby-plugin-image"
+
 
 
 

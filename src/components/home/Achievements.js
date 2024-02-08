@@ -5,6 +5,7 @@ import DentistIcon from "../../images/icons/dentist.svg";
 import StaffIcon from "../../images/icons/staff.svg";
 import ExperienceIcon from "../../images/icons/experience.svg";
 import SmileIcon from "../../images/icons/smile.svg";
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const Achievements = () => {
   const [ref, inView] = useInView({
@@ -37,7 +38,7 @@ const Achievements = () => {
         {achievements.map((item) => {
           return (
             <div key={item.id} className="flex flex-col items-center mb-10">
-              <img className=" w-12 mb-5" src={item.icon} />
+              <GatsbyImage className=" w-12 mb-5" src={item.icon} />
 
               <CountUp
                 start={0}

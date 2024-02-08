@@ -3,6 +3,8 @@ import React from "react";
 import HaDermaImage from "../../../images/ha-derma.svg";
 import AliaxinImage from "../../../images/aliaxin.svg";
 import ProfhiloImage from "../../../images/profhilo-white.png";
+import { GatsbyImage } from "gatsby-plugin-image";
+
 
 const QualityProducts = () => {
   return (
@@ -20,16 +22,16 @@ const QualityProducts = () => {
         <div className="w-full lg:w-1/2 flex flex-wrap p-3 pt-0 mt-10 lg:mt-0">
           <div className="w-1/2 p-4">
             <div className="bg-white rounded">
-              <img src={HaDermaImage} alt="HA Derma" />
+              <GatsbyImage src={HaDermaImage} alt="HA Derma" />
             </div>
           </div>
 
           <div className="w-1/2 p-4">
             <div className="bg-white rounded flex justify-center items-start mb-10">
-              <img src={AliaxinImage} alt="HA Derma" />
+              <GatsbyImage src={AliaxinImage} alt="HA Derma" />
             </div>
             <div className="">
-              <img src={ProfhiloImage} alt="HA Derma" />
+              <GatsbyImage src={ProfhiloImage} alt="HA Derma" />
             </div>
           </div>
         </div>

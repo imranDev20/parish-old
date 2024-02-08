@@ -4,6 +4,7 @@ import GuidanceIcon from "../../../images/icons/guidance.svg";
 import QualityIcon from "../../../images/icons/quality.svg";
 import EleganceIcon from "../../../images/icons/elegance.svg";
 import CommitmentIcon from "../../../images/icons/commitment.svg";
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const OurValues = () => {
   const points = [
@@ -38,7 +39,7 @@ const OurValues = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
         {points.map((item) => (
           <div className="px-2 py-5 rounded-md flex flex-col items-center ">
-            <img src={item.icon} alt={item.title} width={70} className="mb-5" />
+            <GatsbyImage src={item.icon} alt={item.title} width={70} className="mb-5" />
             <h3 className="text-white text-center mb-3 text-xl font-medium">
               {item.title}
             </h3>

@@ -1,6 +1,6 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import CareQualityImage from "../../../images/care-quality-com.svg";
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const KeepingSafe = () => {
   return (
@@ -24,7 +24,7 @@ const KeepingSafe = () => {
             health and peace of mind are our utmost priority.
           </p>
           <div className="mt-3 flex justify-end">
-            <img
+            <GatsbyImage
               src={CareQualityImage}
               alt="Care Quality Image"
               width={180}
@@ -33,7 +33,7 @@ const KeepingSafe = () => {
           </div>
         </div>
         <div className="pl-5 lg:mt-0 mt-10">
-          <StaticImage layout="fullWidth" src="../../../images/gloves.jpeg" />
+          <GatsbyImage layout="fullWidth" src="../../../images/gloves.jpeg" />
         </div>
       </div>
     </section>

@@ -1,4 +1,6 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image"
+
 const BlogPage = () => {
   return (
     <section>
@@ -28,7 +30,7 @@ const BlogPage = () => {
           </div>
         </div>
         <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
-          <img
+          <StaticImage
             className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
             src="https://res.cloudinary.com/db1i46uiv/image/upload/v1696596929/woman-smiling-while-male-dentist-keeping-teeth-color-range_wjzulv.jpg"
             alt=""

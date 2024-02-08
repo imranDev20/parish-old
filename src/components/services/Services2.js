@@ -53,7 +53,7 @@ const Services2 = () => {
                   </div>
                   <div className="bg-white  p-5 relative pr-3">
                     <div className="absolute top-0 -translate-y-1/2  bg-white rounded shadow w-20 h-20 p-3">
-                      <img
+                      <GatsbyImage
                         className="object-contain"
                         src={service?.icon?.url}
                         alt=""

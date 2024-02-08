@@ -225,7 +225,7 @@ const ProductSinglePage = ({ data }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 ">
           {steps.map((step) => (
             <div className="flex flex-col items-center" key={step.id}>
-              <img
+              <GatsbyImage
                 src={step.icon}
                 alt={step.name}
                 width={70}

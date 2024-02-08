@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import { BsArrowRight } from "react-icons/bs";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import Schedule from "./Schedule";
+
 // import CareCommission from "../../images/regulated-by-care.jpeg";
 
 const Features = () => {
@@ -43,7 +44,7 @@ const Features = () => {
     <section className="container mx-auto px-10 grid grid-cols-1  lg:grid-cols-3 my-32 gap-10">
       <div>
         <div className="mb-5">
-          <img src={nhsImage?.url} alt="NHS image" width={350} height={200} />
+          <GatsbyImage src={nhsImage?.url} alt="NHS image" width={350} height={200} />
           <h3 className="text-primary font-semibold text-3xl my-2">{title}</h3>
           <a
             target="_blank"
@@ -55,7 +56,7 @@ const Features = () => {
         </div>
 
         <div>
-          <StaticImage
+          <img
             src="../../images/regulated-by-care.jpeg"
             alt="Care Commission"
             placeholder="blurred"

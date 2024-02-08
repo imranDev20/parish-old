@@ -1,5 +1,7 @@
 import { Link, graphql, useStaticQuery } from "gatsby";
 import React from "react";
+import { GatsbyImage } from "gatsby-plugin-image"
+
 
 const Logo = ({ isFooter }) => {
   const data = useStaticQuery(graphql`
