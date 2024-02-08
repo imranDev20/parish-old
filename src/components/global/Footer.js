@@ -86,11 +86,14 @@ const Footer = () => {
             </a>
           </div>
           <a
-          className="cursor-pointer"
+            className="cursor-pointer"
             target="_blank"
             href="https://www.justgiving.com/crowdfunding/drpavmobiledentalvan"
           >
-            <p className="my-10 border-4 p-2 rounded-sm border-green-600 "><b>honoring a visionary, building a legacy – donate</b></p>
+            <button className="py-2 my-6 font-semibold border-2 border-green-600 rounded-lg hover:text-white text-green-600 px-4 bg-white hover:bg-green-600 group-hover:bg-green-600 group-hover:text-white">
+              honoring a visionary, building a legacy – donate
+            </button>
+       
           </a>
 
         </div>
@@ -143,35 +146,44 @@ const Footer = () => {
             <FiMail className="mr-2 w-1/12 text-xl" />{" "}
             <span className="font-light">hello@parishdental.co.uk</span>
           </a>
+          <div className="flex gap-4">
+            <div className="relative group">
+              <button className="py-1 my-3 font-semibold border-2 border-red-600 rounded-lg hover:text-white text-red-600 px-4 bg-white hover:bg-red-600 group-hover:bg-red-600 group-hover:text-white">
+                PRIVATE
+              </button>
+              <div className="absolute z-[99] right-[-141px] mt-0 w-60	bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                <button className="block py-2 px-4 hover:text-white text-red-600 hover:bg-red-600 w-full text-left">
+                  <a className="flex  gap-2" href="tel:08000996375">
+                    <FiPhone className="mt-[2px]" />
+                    0800 099 6375</a>
+                </button>
+                <button className="block py-2 px-4 hover:text-white text-red-600 hover:bg-red-600 w-full text-left">
 
-          <a
-            href="tel:01133228354"
-            className="flex items-center footer-back mb-4 mr-8"
-          >
-            <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
-            <span className="font-light">0800 099 6375 - PVT.</span>
-          </a>
-          <a
-            href="mailto:private@parishdental.co.uk"
-            className="flex items-center footer-back mb-4 mr-8"
-          >
-            <FiMail className="mr-2 w-1/12 text-xl" />{" "}
-            <span className="font-light">private@parishdental.co.uk</span>
-          </a>
-          <a
-            href={`tel:${footerData?.phone}`}
-            className="flex items-center footer-back-blue mb-4 mr-8"
-          >
-            <FiPhone className="mr-2 w-1/12 text-xl" />{" "}
-            <span className="font-light">0113 263 8509 - NHS</span>
-          </a>
-          <a
-            href='mailto:nhs@parishdental.co.uk'
-            className="flex items-center footer-back-blue mb-7 mr-8"
-          >
-            <FiMail className="mr-2 w-1/12 text-xl" />{" "}
-            <span className="font-light">nhs@parishdental.co.uk</span>
-          </a>
+                  <a className="flex  gap-2" href="mailto:private@parishdental.co.uk">
+                    <FiMail className="mt-[2px]" />
+                    private@parishdental.co.uk</a>
+                </button>
+              </div>
+            </div>
+            <div className="relative group">
+              <button className="py-1  my-3 font-semibold border-2 border-blue-600 rounded-lg hover:text-white text-blue-600 px-4 bg-white hover:bg-blue-600 group-hover:bg-blue-600 group-hover:text-white">
+                NHS
+              </button>
+              <div className="absolute z-[99] right-[-55px] mt-0 w-60	 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
+                  <a className="flex  gap-2" href="tel:001132638509">
+                    <FiPhone className="mt-[2px]" />
+                    0011 326 38509</a>
+                </button>
+                <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
+                  <a className="flex  gap-2" href="mailto:nhsparishdental.co.uk">
+                    <FiMail className="mt-[2px]" />
+                    nhsparishdental.co.uk</a>
+
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
           <a

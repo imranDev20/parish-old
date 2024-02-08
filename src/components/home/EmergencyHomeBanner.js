@@ -40,12 +40,12 @@ function EmergencyBanner() {
           </Card>
 
           <div className="flex justify-center items-center">
-            <div className="flex md:flex-col flex-row">
-              <a href="tel:01133228354">
-                <Button className="my-3 bg-red-700 flex items-center text-base lg:text-lg">
-                  <FaPhoneAlt className="mr-3 text-lg" />
+            <div className="flex gap-4 md:flex-col flex-row">
+              <a href="tel:08000996375">
+                <Button className="my-3 bg-red-700 flex items-center text-base lg:text-lg p-5 md:p-5">
+                  <FaPhoneAlt className="mr-3 md:block hidden text-lg" />
                   <span>
-                    Call us now <br /> 0113 322 8354
+                    Call us Now <br /> 0800 099 6375
                   </span>
                 </Button>
               </a>
@@ -53,14 +53,19 @@ function EmergencyBanner() {
               <a
                 target="_blank"
                 referrerPolicy="no-referrer"
-                className="hidden md:block"
                 href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
               >
                 <Button
-                  className="my-3 bg-red-700 flex items-center text-base lg:text-lg p-5"
+                  className="my-3 md:flex hidden bg-red-700  items-center text-base lg:text-lg px-10 py-5 md:px-5"
                   size="lg"
                 >
-                  <FaCalendarCheck className="mr-3  text-lg" /> Book Online
+                  <FaCalendarCheck className="mr-3 md:block hidden text-lg" /> Book Online
+                </Button>
+                <Button
+                  className="my-3 md:hidden bg-red-700 flex items-center text-base lg:text-lg px-10 py-5 md:px-5"
+                  size="lg"
+                >
+                  <FaCalendarCheck className="mr-3 md:block hidden text-lg" /> Book <br/> Online
                 </Button>
               </a>
             </div>

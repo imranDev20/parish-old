@@ -174,7 +174,7 @@ const WhyChooseUs = () => {
             allowfullscreen
           ></iframe>
           <iframe
-            className="w-[47%]"
+            className="md:w-[47%] py-4 w-full"
             height="350px"
             src="https://www.youtube.com/embed/lebQf5sdnLU?si=EA3htKUReIjvyuzj"
             title="About Parish Dental"

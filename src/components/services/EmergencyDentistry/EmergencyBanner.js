@@ -40,11 +40,11 @@ function EmergencyBanner() {
 
           <div className="flex justify-center items-center">
             <div className="flex flex-col">
-              <a href="tel:01133228354">
+              <a href="tel:08000996375">
                 <Button className="my-3 bg-red-700 flex items-center text-base lg:text-lg">
                   <FaPhoneAlt className="mr-3 text-lg" />
                   <span>
-                    Call us now <br /> 0113 322 8354
+                    Call us now <br /> 0800 099 6375
                   </span>
                 </Button>
               </a>
