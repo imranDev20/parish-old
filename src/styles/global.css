@@ -289,8 +289,19 @@ input[type="number"] {
     display: none;
   }
   .hero-slide1 {
-    height: 50vh !important;
-   
+    height: 65vh !important;
+  }
+
+  .hero-slide {
+    height: 65vh !important;
+  }
+
+  .hero-slide77 {
+    height: 65vh !important;
+  }
+
+  .hero-slide2{
+    height: 65vh !important;
   }
   
 }

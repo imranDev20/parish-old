@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaCalendarCheck } from "react-icons/fa";
 
 function EmergencyBanner() {
   return (
-    <section className="emergency24 relative after:content-[''] after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-black/60"
+    <section className=" emergency24 relative after:content-[''] after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-black/60"
     >
       <StaticImage
         className="h-[calc(80vh-0px)]"

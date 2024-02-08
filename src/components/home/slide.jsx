@@ -104,9 +104,9 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Energency />
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <div className="hero-slide">
             <div className="content">
@@ -114,7 +114,7 @@ export default function App() {
                 <h3 className="tracking-[0.2em] uppercase bg-secondary text-white text-xs lg:text-sm px-3 py-2 inline-block rounded">
                   Exclusive Offer
                 </h3>
-                <h2 className="text-3xl sm:text-3xl md:text-4xl text-primary font-semibold capitalize my-2">
+                <h2 className="text-xl md:text-4xl text-primary font-semibold capitalize my-2">
                   <span className="inline-block bg-white my-1 px-3 py-2 rounded">
                     Accepting New NHS Patients Under 18.
                   </span>
