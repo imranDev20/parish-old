@@ -38,7 +38,7 @@ const Achievements = () => {
         {achievements.map((item) => {
           return (
             <div key={item.id} className="flex flex-col items-center mb-10">
-              <GatsbyImage className=" w-12 mb-5" src={item.icon} />
+              <img className=" w-12 mb-5" src={item.icon} />
 
               <CountUp
                 start={0}

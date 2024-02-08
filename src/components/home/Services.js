@@ -14,7 +14,7 @@ const Services = () => {
         return (
           <div key={service?.contentful_id} className="flex my-3 items-start">
             <div className="w-3/12 mr-3">
-              <GatsbyImage
+              <img
                 width={80}
                 height={80}
                 src={service.icon.url}
