@@ -18,7 +18,7 @@ const TeamCard = ({
         {!imageWithUrl ? (
           <GatsbyImage image={image} alt={name} />
         ) : (
-          <GatsbyImage image={image} alt="" />
+          <img src={image} alt="" />
         )}{" "}
       </div>
       <div className="my-5 text-center ">
