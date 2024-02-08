@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/global/Layout";
-import Hero from "../components/home/Hero";
 import Cta from "../components/home/Cta";
 import HomeBanner from "../components/home/HomeBanner";
 import Achievements from "../components/home/Achievements";

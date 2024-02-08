@@ -1,20 +1,14 @@
 import React from "react";
-import { FaUserCircle } from "react-icons/fa";
-
-import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 import {
   Card,
   CardBody,
   CardHeader,
-  IconButton,
   Typography,
 } from "@material-tailwind/react";
 import {
   CarouselProvider,
   Slider,
   Slide,
-  ButtonBack,
-  ButtonNext,
 } from "pure-react-carousel";
 import { Rating } from "@material-tailwind/react";
 import { StaticImage } from "gatsby-plugin-image";

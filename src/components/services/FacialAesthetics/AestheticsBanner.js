@@ -1,7 +1,6 @@
 import { Button } from "@material-tailwind/react";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import { BsCalendarCheck } from "react-icons/bs";
 
 const AestheticsBanner = () => {
   return (
@@ -26,6 +25,7 @@ const AestheticsBanner = () => {
         <a
           href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
           target="_blank"
+          rel="noreferrer"
         >
           <Button className="mt-12 bg-secondary hover:shadow-secondary/50">
             Book Now

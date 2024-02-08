@@ -2,8 +2,6 @@ import React from "react";
 import Layout from "../components/global/Layout";
 import PageHeader from "../components/global/PageHeader";
 import Faq from "../components/about/Faq";
-import WhoWeAre from "../components/about/WhoWeAre";
-import AboutMe from "../components/about/about-me";
 import DynamicSeo from "../components/global/DynamicSeo";
 
 const AboutPage = () => {

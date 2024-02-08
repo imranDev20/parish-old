@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBirthdayCake, FaUserShield } from "react-icons/fa";
+import { FaBirthdayCake } from "react-icons/fa";
 
 const ThingsToKnow = () => {
   return (

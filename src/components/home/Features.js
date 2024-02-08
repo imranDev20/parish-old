@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { BsArrowRight } from "react-icons/bs";
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import Schedule from "./Schedule";
 
 // import CareCommission from "../../images/regulated-by-care.jpeg";

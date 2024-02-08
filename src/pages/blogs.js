@@ -9,7 +9,6 @@ import DynamicSeo from "../components/global/DynamicSeo";
 
 const BlogPage = () => {
   const blogs = useBlogQuery();
-  const recentBlogs = useRecentBlogQuery();
 
   return (
     <Layout>
@@ -28,7 +27,6 @@ const BlogPage = () => {
               slug,
               title,
               createdAt,
-              updatedAt,
               excerpt,
               featuredImage,
             } = blog;

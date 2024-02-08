@@ -1,6 +1,5 @@
 import React from "react";
 import PageHeader from "../global/PageHeader";
-import Form from "../global/Form";
 import HomeBanner from "../home/HomeBanner";
 import { Link } from "gatsby";
 

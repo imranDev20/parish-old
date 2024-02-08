@@ -2,7 +2,6 @@ import React from "react";
 
 import GuidanceIcon from "../../../images/icons/guidance.svg";
 import QualityIcon from "../../../images/icons/quality.svg";
-import EleganceIcon from "../../../images/icons/elegance.svg";
 import CommitmentIcon from "../../../images/icons/commitment.svg";
 import { GatsbyImage } from "gatsby-plugin-image"
 

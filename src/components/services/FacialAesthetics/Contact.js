@@ -1,6 +1,5 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import QueriesForm from "../../global/QueriesForm";
 import QueriesFormDark from "./QueriesFormDark";
 
 const Contact = () => {
