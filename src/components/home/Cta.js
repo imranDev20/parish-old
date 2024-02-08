@@ -4,7 +4,7 @@ const Cta = () => {
   return (
     <section className="bg-primary py-8">
       <div className="container mx-auto px-10 flex flex-col lg:flex-row  items-center justify-between">
-        <p className="text-2xl font-semibold text-white pr-5 text-center lg:text-left mb-3 lg:mb-0">
+        <p className="md:text-2xl text-xl font-semibold text-white  text-center lg:text-left mb-3 lg:mb-0">
           Require emergency dental care and want same day treatment?
         </p>
 

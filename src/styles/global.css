@@ -291,6 +291,9 @@ input[type="number"] {
   .hero-slide1 {
     height: 65vh !important;
   }
+  .emergency24 {
+    height:  65vh !important;
+}
 
   .hero-slide {
     height: 65vh !important;

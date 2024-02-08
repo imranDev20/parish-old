@@ -104,9 +104,9 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <Energency />
-        </SwiperSlide> */}
+        </SwiperSlide>
         <SwiperSlide>
           <div className="hero-slide">
             <div className="content">

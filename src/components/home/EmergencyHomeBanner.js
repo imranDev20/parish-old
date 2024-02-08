@@ -8,39 +8,39 @@ function EmergencyBanner() {
     <section className=" emergency24 relative after:content-[''] after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-black/60"
     >
       <StaticImage
-        className="h-[calc(80vh-0px)]"
-        imgClassName="h-[calc(80vh-0px)]"
+        className="md:h-[calc(80vh-0px)] h-[65vh]"
+        imgClassName="md:h-[calc(80vh-0px)] h-[65vh]"
         src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693909813/emergency-banner_showie.jpg"
         alt="Emergency Banner"
       />
 
       <div className="container mx-auto px-10 z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <Card className="p-5">
+          <Card className="md:p-5 p-0">
             <CardBody>
               <Typography
                 variant="h1"
                 color="blue-gray"
-                className="mb-2 font-bold text-3xl lg:text-5xl"
+                className="mb-2 font-bold text-2xl md:text-3xl lg:text-5xl"
               >
                 Emergency Dentist
               </Typography>
-              <Typography className="font-bold text-lg lg:text-2xl my-5">
+              <Typography className="font-bold md:text-lg text-md lg:text-2xl my-5">
                 Covering LEEDS 24 Hours 7 days of the week including National
                 and Bank Holidays
               </Typography>
 
-              <Typography className="font-bold text-lg lg:text-xl my-2">
+              <Typography className="font-bold  md:text-lg text-md  lg:text-xl my-2">
                 £45 consultation
               </Typography>
-              <Typography className="font-medium text-lg lg:text-xl my-2">
+              <Typography className="font-medium  md:text-lg text-md  lg:text-xl my-2">
                 £90* out-of-hours consultation
               </Typography>
             </CardBody>
           </Card>
 
           <div className="flex justify-center items-center">
-            <div className="flex flex-col">
+            <div className="flex md:flex-col flex-row">
               <a href="tel:01133228354">
                 <Button className="my-3 bg-red-700 flex items-center text-base lg:text-lg">
                   <FaPhoneAlt className="mr-3 text-lg" />
@@ -53,13 +53,14 @@ function EmergencyBanner() {
               <a
                 target="_blank"
                 referrerPolicy="no-referrer"
+                className="hidden md:block"
                 href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
               >
                 <Button
                   className="my-3 bg-red-700 flex items-center text-base lg:text-lg p-5"
                   size="lg"
                 >
-                  <FaCalendarCheck className="mr-3 text-lg" /> Book Online
+                  <FaCalendarCheck className="mr-3  text-lg" /> Book Online
                 </Button>
               </a>
             </div>
