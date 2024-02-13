@@ -26,6 +26,12 @@ module.exports = {
         icon: "src/images/Icon-parish.svg",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+      },
+    },
 
     {
       resolve: `gatsby-source-stripe`,
