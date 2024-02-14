@@ -22,7 +22,7 @@ function DynamicSeo({ title, description }) {
     <>
       <title>{pageTitle}</title>
       <meta name="description" content={metaDescription} />
-      <meta name="google-site-verification" content="7zSn6P8ELtOk-QRHdMJA_9MB8cpVF_i8GasElsem4bQ" />
+      <meta name="google-site-verification" content="gcIFysPZanHjzLWgzsoArFHjgsphX46HhiKOmMqT5cc" />
     </>
   );
 }

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
 import Layout from "../components/global/Layout";
 import Cta from "../components/home/Cta";
 import HomeBanner from "../components/home/HomeBanner";
@@ -27,12 +26,6 @@ const IndexPage = () => {
 
   return (
     <>
-      <Helmet>
-        <meta
-          name="google-site-verification"
-          content="gcIFysPZanHjzLWgzsoArFHjgsphX46HhiKOmMqT5cc"
-        />
-      </Helmet>
       {loading ? (
         <div className="justify-center h-[90vh]  items-center flex flex-col gap-10">
           <Logo />
