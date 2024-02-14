@@ -27,6 +27,12 @@ const IndexPage = () => {
 
   return (
     <>
+      <Helmet>
+        <meta
+          name="google-site-verification"
+          content="gcIFysPZanHjzLWgzsoArFHjgsphX46HhiKOmMqT5cc"
+        />
+      </Helmet>
       {loading ? (
         <div className="justify-center h-[90vh]  items-center flex flex-col gap-10">
           <Logo />
@@ -35,12 +41,6 @@ const IndexPage = () => {
       ) : (
         <>
           <Layout>
-            <Helmet>
-              <meta
-                name="google-site-verification"
-                content="gcIFysPZanHjzLWgzsoArFHjgsphX46HhiKOmMqT5cc"
-              />
-            </Helmet>
             <Slide />
             <Cta />
             <HomeBanner />
