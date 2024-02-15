@@ -14,6 +14,7 @@ module.exports = {
     author: `Hassan Bhojani`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     `gatsby-plugin-postcss`,
