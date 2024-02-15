@@ -27,3 +27,11 @@ function EmergencyDentistry() {
   );
 }
 export default EmergencyDentistry;
+
+export const Head = () => (
+  <DynamicSeo
+    title="24 Hours Private Dental Clinic in Leeds -Book Appointment Now!"
+    description="Parish Dental is a leading private dental clinic in Leeds, UK offering emergency treatments and online appointments for all your dental needs. Book now!"
+  />
+);
+

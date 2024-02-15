@@ -15,12 +15,10 @@ import Logo from "../components/global/Logo";
 
 const IndexPage = () => {
   const [loading, setLoading] = useState(true);
-
-  // Simulate loading delay for demonstration
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Simulated 2 seconds loading time
+    }, 2000); 
     return () => clearTimeout(timer);
   }, []);
 
@@ -55,7 +53,7 @@ export default IndexPage;
 
 export const Head = () => (
   <DynamicSeo
-    title="24 Hours Emergency Dentist in Leeds | Private Affordable Dentistry"
-    description="Looking for 24 Hours Emergency Dentist in Leeds? Visit Parish Dental Today! We have more than 25 Years of Experience and offer same day treatment."
+    title="24 Hours Private Dental Clinic in Leeds -Book Appointment Now!"
+    description="Parish Dental is a leading private dental clinic in Leeds, UK offering emergency treatments and online appointments for all your dental needs. Book now!"
   />
 );
