@@ -14,7 +14,6 @@ module.exports = {
     author: `Hassan Bhojani`,
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
@@ -35,8 +34,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "G-T2C15BBVH3",
-        head: false,
+        trackingIds: [
+          {
+            trackingId: "G-T2C15BBVH3",
+            anonymize: true,
+          },
+        ],
+        head: false, // or true if you want to place the tracking script in the <head>
       },
     },
 
