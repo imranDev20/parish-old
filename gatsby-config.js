@@ -15,8 +15,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 5000,
+      },
+    },
     "gatsby-plugin-image",
-    "gatsby-plugin-sitemap",
     `gatsby-plugin-postcss`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-sharp`,
