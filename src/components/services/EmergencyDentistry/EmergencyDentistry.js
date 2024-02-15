@@ -8,6 +8,7 @@ import EmergencyReviews from "./EmergencyReviews";
 import EmergencyAddress from "./EmergencyAddress";
 import EmergencyForm from "./EmergencyForm";
 import HomeBanner from "../../home/HomeBanner";
+import DynamicSeo from "../../global/DynamicSeo"
 
 function EmergencyDentistry() {
   return (
