@@ -34,13 +34,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingIds: [
-          {
-            trackingId: "G-T2C15BBVH3",
-            anonymize: true,
-          },
-        ],
-        head: false, // or true if you want to place the tracking script in the <head>
+        trackingId: "G-T2C15BBVH3",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
+        defer: false,
+        enableWebVitalsTracking: true,
       },
     },
 
