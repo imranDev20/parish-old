@@ -3,6 +3,8 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import React from "react";
 import { customSlugify } from "../../../common/utils";
 import { Button } from "@material-tailwind/react";
+import WhiteningVideo from "./WhiteningVideo";
+
 
 const Range = () => {
   const { products } = useStaticQuery(graphql`
@@ -20,7 +22,7 @@ const Range = () => {
 
   console.log(products.nodes);
   return (
-    <section className="bg-[#F3F3F3] relative pb-56">
+    <section className="bg-[#F3F3F3] relative pb-[10%]">
       <div className="px-10 container mx-auto py-10">
         <h2 className="text-[#4f5859] text-4xl text-center font-semibold mb-10">
           Shop the Range
@@ -52,7 +54,7 @@ const Range = () => {
         </Link>
       </div>
 
-      <svg
+      {/* <svg
         className="h-[300px] absolute -bottom-[120px] right-0 z-10 banner-triangle "
         style={{ transform: "rotateX(135deg)" }}
         data-name="Layer 1"
@@ -65,7 +67,9 @@ const Range = () => {
           d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
           className="shape-fill"
         ></path>
-      </svg>
+      </svg> */}
+      <WhiteningVideo/>
+
     </section>
   );
 };

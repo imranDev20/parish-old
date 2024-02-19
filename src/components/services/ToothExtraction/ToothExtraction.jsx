@@ -1,8 +1,6 @@
 import React from "react";
-import ClearAlignersBaner from "./ClearAlignersBaner";
-import ClrarContent from "./ClrarContent";
 import Faq from "./Faq";
-import ContactInfo from "./ContactInfo";
+import ToothExtractionInfo from "./ToothExtractionInfo";
 import HomeBanner from "../../home/HomeBanner";
 import ToothExtractionBody from "./ToothExtractionBody"
 import ToothExtractionHeader from "./ToothExtractionHeader";
@@ -15,7 +13,7 @@ const ClearAligners = () => {
       <div className="mb-5">
         <HomeBanner />
       </div>
-      <ContactInfo />
+      <ToothExtractionInfo />
     </>
   );
 };

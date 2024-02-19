@@ -52,6 +52,13 @@ const ContactPageForm = () => {
                 accounts@parishdental.co.uk
               </a>
             </h3>
+            <h2>Practice Manager</h2>
+            <h3>
+              For Practice Manager –{" "}
+              <a href="mailto:hello@parishdental.co.uk">
+                hello@parishdental.co.uks
+              </a>
+            </h3>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-10 mt-16 lg:mt-0">

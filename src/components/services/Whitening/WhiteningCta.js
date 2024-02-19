@@ -5,10 +5,10 @@ import React from "react";
 
 const WhiteningCta = () => {
   return (
-    <section className="px-10 container mx-auto mt-28">
+    <section id="body" className="px-10 container mx-auto pt-28">
       <div className="grid lg:grid-cols-2 grid-cols-1">
         <div className="text-center lg:text-left">
-          <h2 className="text-[#4f5859] text-4xl font-semibold">
+          <h2  className="text-[#4f5859] text-4xl font-semibold">
             Award Winning Whitening
           </h2>
           <p className="leading-8 text-gray-600 my-7">

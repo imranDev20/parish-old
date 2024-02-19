@@ -7,10 +7,7 @@ import MobileMenu from "./MobileMenu";
 import { Button } from "@material-tailwind/react";
 import { Link } from "gatsby";
 import { FiMapPin, FiPhone, FiMail, FiClock } from "react-icons/fi";
-import { StaticImage } from "gatsby-plugin-image"
-
-
-
+import { StaticImage } from "gatsby-plugin-image";
 
 const Header = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -75,13 +72,17 @@ const Header = () => {
                   <button className="block py-2 px-4 hover:text-white text-red-600 hover:bg-red-600 w-full text-left">
                     <a className="flex  gap-2" href="tel:08000996375">
                       <FiPhone className="mt-[2px]" />
-                      0800 099 6375</a>
+                      0800 099 6375
+                    </a>
                   </button>
                   <button className="block py-2 px-4 hover:text-white text-red-600 hover:bg-red-600 w-full text-left">
-
-                    <a className="flex  gap-2" href="mailto:private@parishdental.co.uk">
+                    <a
+                      className="flex  gap-2"
+                      href="mailto:private@parishdental.co.uk"
+                    >
                       <FiMail className="mt-[2px]" />
-                      private@parishdental.co.uk</a>
+                      private@parishdental.co.uk
+                    </a>
                   </button>
                 </div>
               </div>
@@ -91,15 +92,19 @@ const Header = () => {
                 </button>
                 <div className="absolute z-[99] right-0 mt-0 w-60	 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible">
                   <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
-                    <a className="flex  gap-2" href="tel:001132638509">
+                    <a className="flex  gap-2" href="tel:01132638509">
                       <FiPhone className="mt-[2px]" />
-                      0011 326 38509</a>
+                      0113 263 8509
+                    </a>
                   </button>
                   <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
-                    <a className="flex  gap-2" href="mailto:nhsparishdental.co.uk">
+                    <a
+                      className="flex  gap-2"
+                      href="mailto:nhsparishdental.co.uk"
+                    >
                       <FiMail className="mt-[2px]" />
-                      nhsparishdental.co.uk</a>
-
+                      nhsparishdental.co.uk
+                    </a>
                   </button>
                 </div>
               </div>
@@ -108,11 +113,9 @@ const Header = () => {
           <div className=" flex justify-end pl-3 w-[10%]">
             <Burger open={openDrawer} setOpen={setOpenDrawer} />
           </div>
-
         </div>
       </div>
       <MobileMenu open={openDrawer} setOpen={setOpenDrawer} />
-
     </header>
   );
 };

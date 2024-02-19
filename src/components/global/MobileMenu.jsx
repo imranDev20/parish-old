@@ -90,9 +90,9 @@ const MobileMenu = ({ open, setOpen }) => {
           </button>
           <div className="absolute z-[99] right-[-81px] mt-0 w-60	 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible">
             <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
-              <a className="flex  gap-2" href="tel:001132638509">
+              <a className="flex  gap-2" href="tel:01132638509">
                 <FiPhone className="mt-[2px]" />
-                0011 326 38509</a>
+                0113 263 8509</a>
             </button>
             <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
               <a className="flex  gap-2" href="mailto:nhsparishdental.co.uk">

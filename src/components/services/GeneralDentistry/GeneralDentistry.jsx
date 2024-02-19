@@ -1,6 +1,6 @@
 import React from "react";
-import ClearAlignersBaner from "./ClearAlignersBaner";
-import ClrarContent from "./ClrarContent";
+import GeneralBaner from "./GeneralBaner";
+import GeneralContent from "./GeneralContent";
 import Faq from "./Faq";
 import ContactInfo from "./ContactInfo";
 import HomeBanner from "../../home/HomeBanner";
@@ -8,8 +8,8 @@ import HomeBanner from "../../home/HomeBanner";
 const ClearAligners = () => {
   return (
     <>
-      <ClearAlignersBaner />
-      <ClrarContent />
+      <GeneralBaner />
+      <GeneralContent />
 
       <Faq />
       <section className="container mx-auto px-10 py-12">

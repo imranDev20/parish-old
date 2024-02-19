@@ -4,7 +4,7 @@ import React from "react";
 
 const Types = () => {
   return (
-    <section className="mx-auto  my-28">
+    <section  className="mx-auto  mt-28">
       <h2 className="text-[#4f5859] text-4xl text-center font-semibold mb-16">
         3 Types of Whitening Available at Parish Dental
       </h2>

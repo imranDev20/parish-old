@@ -23,7 +23,7 @@ const AestheticsBanner = () => {
         </p>
 
         <a
-          href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
+          href="https://booking.setmore.com/scheduleappointment/932f19c8-6989-4716-93c5-c73ac31d511b"
           target="_blank"
           rel="noreferrer"
         >

@@ -8,7 +8,7 @@ import NotFoundPage from "../404";
 import DomiciliaryCare from "../../components/services/DomiciliaryCare";
 import Whitening from "../../components/services/Whitening/Whitening";
 import ToothExtraction from "../../components/services/ToothExtraction/ToothExtraction.jsx";
-import GeneralDentistry from "../../components/services/GeneralDentistry/ClearAligners";
+import GeneralDentistry from "../../components/services/GeneralDentistry/GeneralDentistry.jsx";
 import Cosmetic from "../../components/services/Cosmetic/ClearAligners";
 import { GatsbyImage } from "gatsby-plugin-image";
 import EmergencyDentistry from "../../components/services/EmergencyDentistry/EmergencyDentistry";
