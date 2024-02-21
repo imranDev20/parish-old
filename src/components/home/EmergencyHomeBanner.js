@@ -53,7 +53,7 @@ function EmergencyBanner() {
               <a
                 target="_blank"
                 referrerPolicy="no-referrer"
-                href="https://uk.dentalhub.online/soe/new/Parish%20Dental?pid=UKDRP02"
+                href="https://booking.setmore.com/scheduleappointment/932f19c8-6989-4716-93c5-c73ac31d511b"
               >
                 <Button
                   className="my-3 md:flex hidden bg-red-700  items-center text-base lg:text-lg px-10 py-5 md:px-5"

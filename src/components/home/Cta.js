@@ -10,7 +10,7 @@ const Cta = () => {
 
         <a
           target="_blank"
-          href="https://emergency247dentist.co.uk/"
+          href="/services/emergency-dental"
           className="tracking-[0.2em] uppercase font-medium rounded-md inline-block transition-colors bg-secondary px-5 py-2 text-lg text-white"
         >
           Visit

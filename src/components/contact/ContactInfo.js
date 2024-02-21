@@ -63,7 +63,7 @@ const ContactInfo = () => {
               <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
                 <a className="flex  gap-2" href="mailto:nhsparishdental.co.uk">
                   <FiMail className="mt-[2px]" />
-                  nhsparishdental.co.uk
+                  nhs@parishdental.co.uk
                 </a>
               </button>
             </div>
@@ -74,6 +74,7 @@ const ContactInfo = () => {
       
         <a
           href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
+          target="_blank"
           className="icon text-xl"
         >
           <BsFacebook />
@@ -81,18 +82,21 @@ const ContactInfo = () => {
         <a
           href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
           className="icon text-xl"
+          target="_blank"
         >
           <BsInstagram />
         </a>
         <a
           href="https://www.youtube.com/channel/UCfI_aWjggAbB3ZT1zijgyfg"
           className="icon text-xl"
+          target="_blank"
         >
           <BsYoutube />
         </a>
         <a
           href="https://www.tiktok.com/@parishdental?is_from_webapp=1&sender_device=pc"
           className="icon text-xl"
+          target="_blank"
         >
           <BsTiktok />
         </a>

@@ -56,7 +56,7 @@ const ContactPageForm = () => {
             <h3>
               For Practice Manager –{" "}
               <a href="mailto:hello@parishdental.co.uk">
-                hello@parishdental.co.uks
+                hello@parishdental.co.uk
               </a>
             </h3>
           </div>

@@ -17,14 +17,14 @@ const addressBlocks = [
   {
     id: 2,
     name: "Phone",
-    val: "0113 322 8354",
+    val: "0800 099 6375",
     Icon: HiOutlinePhone,
-    href: "tel:0113 322 8354",
+    href: "tel:0800 099 6375",
   },
   {
     id: 3,
     name: "Email",
-    val: "hello@emergency247dentist.co.uk",
+    val: "private@parishdental.co.uk",
     Icon: HiOutlineEnvelope,
   },
 ];

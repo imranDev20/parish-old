@@ -4,7 +4,7 @@ import { FiInstagram, FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import { navPages, policyPages } from "../../common/constant";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsYoutube, BsTiktok } from "react-icons/bs";
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -55,18 +55,34 @@ const Footer = () => {
           <Logo isFooter />
           <p className="my-10 font-light">{footerData?.footerDescription}</p>
 
-          <div className="flex items-center my-5 gap-2.5	">
+          <div className="flex items-center my-5 gap-3	">
             <a
-              href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
-              className="icon"
+              href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
+              target="_blank"
+              className="icon "
             >
               <BsFacebook />
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
-              className="icon"
+              href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
+              className="icon "
+              target="_blank"
             >
               <BsInstagram />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCfI_aWjggAbB3ZT1zijgyfg"
+              className="icon "
+              target="_blank"
+            >
+              <BsYoutube />
+            </a>
+            <a
+              href="https://www.tiktok.com/@parishdental?is_from_webapp=1&sender_device=pc"
+              className="icon "
+              target="_blank"
+            >
+              <BsTiktok />
             </a>
           </div>
 
@@ -93,9 +109,7 @@ const Footer = () => {
             <button className="py-2 my-6 font-semibold border-2 border-green-600 rounded-lg hover:text-white text-green-600 px-4 bg-white hover:bg-green-600 group-hover:bg-green-600 group-hover:text-white">
               honoring a visionary, building a legacy – donate
             </button>
-       
           </a>
-
         </div>
 
         <div className="">
@@ -155,13 +169,17 @@ const Footer = () => {
                 <button className="block py-2 px-4 hover:text-white text-red-600 hover:bg-red-600 w-full text-left">
                   <a className="flex  gap-2" href="tel:08000996375">
                     <FiPhone className="mt-[2px]" />
-                    0800 099 6375</a>
+                    0800 099 6375
+                  </a>
                 </button>
                 <button className="block py-2 px-4 hover:text-white text-red-600 hover:bg-red-600 w-full text-left">
-
-                  <a className="flex  gap-2" href="mailto:private@parishdental.co.uk">
+                  <a
+                    className="flex  gap-2"
+                    href="mailto:private@parishdental.co.uk"
+                  >
                     <FiMail className="mt-[2px]" />
-                    private@parishdental.co.uk</a>
+                    private@parishdental.co.uk
+                  </a>
                 </button>
               </div>
             </div>
@@ -173,13 +191,17 @@ const Footer = () => {
                 <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
                   <a className="flex  gap-2" href="tel:01132638509">
                     <FiPhone className="mt-[2px]" />
-                    0113 263 8509</a>
+                    0113 263 8509
+                  </a>
                 </button>
                 <button className="block py-2 px-4 hover:text-white text-blue-600 hover:bg-blue-600 w-full text-left">
-                  <a className="flex  gap-2" href="mailto:nhsparishdental.co.uk">
+                  <a
+                    className="flex  gap-2"
+                    href="mailto:nhsparishdental.co.uk"
+                  >
                     <FiMail className="mt-[2px]" />
-                    nhsparishdental.co.uk</a>
-
+                    nhs@parishdental.co.uk
+                  </a>
                 </button>
               </div>
             </div>
@@ -191,10 +213,9 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <GatsbyImage
-              image={footerData?.mapPicture?.gatsbyImageData}
-              className="h-full w-full"
-              imgClassName="w-full h-full object-cover rounded"
+            <img
+              src="https://res.cloudinary.com/db1i46uiv/image/upload/v1708500168/Screenshot_2024-02-21_131851_cnquue.png"
+              className="h-full w-full object-cover rounded"
               alt={footerData?.mapPicture?.title}
             />
           </a>

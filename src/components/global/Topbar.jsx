@@ -7,7 +7,7 @@ const Topbar = () => {
       <div className="flex container mx-auto px-2 ">
         <div className="w-[25%] flex items-center">
           <FiClock className="mr-2" />
-          <span>Monday to Saturday - 9am to 6pm</span>
+          <span>Open 7 days - 24/7 available on request</span>
         </div>
         <div className="w-[75%]">
           <div className="flex justify-end">
