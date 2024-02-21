@@ -15,6 +15,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-T2C15BBVH3",
+        head: true,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: `/sitemap.xml`,
@@ -31,18 +39,7 @@ module.exports = {
         icon: "src/images/Icon-parish.svg",
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "G-T2C15BBVH3",
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        pageTransitionDelay: 0,
-        defer: false,
-        enableWebVitalsTracking: true,
-      },
-    },
+   
 
     {
       resolve: `gatsby-source-stripe`,
