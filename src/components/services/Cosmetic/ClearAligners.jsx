@@ -4,6 +4,7 @@ import ClrarContent from "./ClrarContent";
 import Faq from "./Faq";
 import ContactInfo from "./ContactInfo";
 import HomeBanner from "../../home/HomeBanner";
+import DynamicSeo from "../../global/DynamicSeo";
 
 const ClearAligners = () => {
   return (
@@ -32,3 +33,10 @@ const ClearAligners = () => {
 };
 
 export default ClearAligners;
+
+export const Head = () => (
+  <DynamicSeo
+    title="Top Cosmetic Dentistry Clinic in Leeds | Parish Dental "
+    description="Transform your smile with our cosmetic dentistry services in Leeds. Discover personalized care from our private cosmetic dentist. Book your consultation today!"
+  />
+);

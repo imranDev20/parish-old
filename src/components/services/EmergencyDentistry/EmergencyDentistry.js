@@ -31,8 +31,8 @@ export default EmergencyDentistry;
 
 export const Head = () => (
   <DynamicSeo
-    title="24 Hours Private Dental Clinic in Leeds -Book Appointment Now!"
-    description="Parish Dental is a leading private dental clinic in Leeds, UK offering emergency treatments and online appointments for all your dental needs. Book now!"
+    title="Emergency Dental Clinic & Services in Leeds | Book Now"
+    description="We at Parish Dental has a team of experience dentists offering various emergency dental services from toothaches to broken teeth. Book your appointment now!"
   />
 );
 

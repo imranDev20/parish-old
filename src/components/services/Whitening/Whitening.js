@@ -6,6 +6,7 @@ import ProductsBanner from "./ProductsBanner";
 import Faq from "./Faq";
 import Types from "./Types";
 import HomeBanner from "../../home/HomeBanner";
+import DynamicSeo from "../../global/DynamicSeo";
 
 const Whitening = () => {
   return (
@@ -24,3 +25,10 @@ const Whitening = () => {
 };
 
 export default Whitening;
+
+export const Head = () => (
+  <DynamicSeo
+    title="Best Teeth Whitening Service & Product  in Leeds | Parish Dental"
+    description="Get a radiant smile with our expert teeth whitening services in Leeds. Choose from Whitening Strips, Home, or In-Office Whitening for great results. Visit now!"
+  />
+);

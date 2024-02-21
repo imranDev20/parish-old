@@ -19,7 +19,7 @@ export default ServicesPage;
 
 export const Head = () => (
   <DynamicSeo
-    title="Comprehensive Services for Your Dental Needs at Parish Dental Practice"
-    description="Explore a range of dental services at Parish Dental Practice. From general dentistry to cosmetic treatments, our skilled team is dedicated to providing excellent care. Discover how we can meet your oral health needs today."
+    title="Best Dental & Cosmetic Treatments in Leeds | Parish Dental"
+    description="Discover a range of exceptional general and cosmetic dental services at Parish Dental in Leeds, UK. Achieve your ideal smile with our expert care. Visit us now!"
   />
 );

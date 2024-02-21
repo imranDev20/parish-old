@@ -10,6 +10,8 @@ import KeepingSafe from "./FacialAesthetics/KeepingSafe";
 import ThingsToKnow from "./FacialAesthetics/ThingsToKnow";
 import TreatmentFaq from "./FacialAesthetics/TreatmentFaq";
 import HomeBanner from "../home/HomeBanner";
+import DynamicSeo from "../global/DynamicSeo";
+
 const FacialAesthetics = () => {
   return (
     <>
@@ -34,3 +36,10 @@ const FacialAesthetics = () => {
 };
 
 export default FacialAesthetics;
+
+export const Head = () => (
+  <DynamicSeo
+    title="Aesthetics Dental Clinic in Leeds - Parish Dental"
+    description="Our expert team at Parish Dental offers safe & effective aesthetic dental care services like lip fillers, skin rejuvenation, dermal fillers & more. Book now!"
+  />
+);

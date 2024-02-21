@@ -6,6 +6,7 @@ import OurValues from "./CustomGrillz/OurValues";
 import AestheticsTestimonial from "./CustomGrillz/AestheticsTestimonial";
 import Contact from "./CustomGrillz/Contact";
 import HomeBanner from "../home/HomeBanner";
+import DynamicSeo from "../global/DynamicSeo";
 
 const FacialAesthetics = () => {
   return (
@@ -27,3 +28,10 @@ const FacialAesthetics = () => {
 };
 
 export default FacialAesthetics;
+
+export const Head = () => (
+  <DynamicSeo
+    title="Get Custom Grillz and Tooth Gems in Leeds | Parish Dental"
+    description="We at Parish Dental offers a customized grillz and tooth gems in Leeds. Choose from gold, silver, and diamond options to create a look that's uniquely yours."
+  />
+);

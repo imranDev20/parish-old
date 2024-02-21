@@ -20,8 +20,8 @@ export default AboutPage;
 export function Head() {
   return (
     <DynamicSeo
-      title="Get to Know More About Parish Dental | Who We Are"
-      description="Get to know more about Parish Dental in the Leeds. Our team of dentists is committed to delivering high-quality dental services at affordable prices. Discover more about us!"
+      title="About Us | Parish Dental in Leeds, UK"
+      description="We at Parish Dental are proud to offer a wide range of dental services with quality care in Leeds, UK. Call us now to book your appointment!"
     />
   );
 }

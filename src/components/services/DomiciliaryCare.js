@@ -2,6 +2,7 @@ import React from "react";
 import PageHeader from "../global/PageHeader";
 import HomeBanner from "../home/HomeBanner";
 import { Link } from "gatsby";
+import DynamicSeo from "../global/DynamicSeo";
 
 const DomiciliaryCare = () => {
   const points = [
@@ -135,3 +136,10 @@ const DomiciliaryCare = () => {
 };
 
 export default DomiciliaryCare;
+
+export const Head = () => (
+  <DynamicSeo
+    title="Mobile Dentistry Services in Leeds | Parish Dental UK"
+    description=" Get the convenient mobile dental services in Leeds with Parish Dental. Our mobile dentists bring quality care to you. Schedule your appointment online now!"
+  />
+);

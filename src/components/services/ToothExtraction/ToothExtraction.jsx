@@ -4,6 +4,7 @@ import ToothExtractionInfo from "./ToothExtractionInfo";
 import HomeBanner from "../../home/HomeBanner";
 import ToothExtractionBody from "./ToothExtractionBody"
 import ToothExtractionHeader from "./ToothExtractionHeader";
+import DynamicSeo from "../../global/DynamicSeo";
 const ClearAligners = () => {
   return (
     <>
@@ -19,3 +20,9 @@ const ClearAligners = () => {
 };
 
 export default ClearAligners;
+export const Head = () => (
+  <DynamicSeo
+    title="Get the Best Tooth Extraction Treatment in Leeds| Parish Dental "
+    description="Book an emergency tooth extraction service in Leeds with Parish Dental. Our skilled dentists ensure safe and effective tooth removal treatments. Visit now!"
+  />
+);
