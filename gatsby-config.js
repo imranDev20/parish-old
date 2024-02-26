@@ -15,11 +15,12 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-T2C15BBVH3",
-        head: true,
-        anonymize: true,
+        trackingIds: ["G-T2C15BBVH3"],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     {
@@ -39,7 +40,6 @@ module.exports = {
         icon: "src/images/Icon-parish.svg",
       },
     },
-   
 
     {
       resolve: `gatsby-source-stripe`,
