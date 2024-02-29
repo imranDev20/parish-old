@@ -84,7 +84,7 @@ const MobileMenu = ({ open, setOpen }) => {
             </button>
           </div>
         </div>
-        <div className="relative group">
+        {/* <div className="relative group">
           <button className="py-[2px] my-3 font-semibold border-2 border-blue-600 rounded-[6px] hover:text-white text-blue-600 px-3 bg-white hover:bg-blue-600 group-hover:bg-blue-600 group-hover:text-white">
             NHS
           </button>
@@ -101,7 +101,7 @@ const MobileMenu = ({ open, setOpen }) => {
 
             </button>
           </div>
-        </div>
+        </div> */}
         <a target="_blank" href="https://booking.setmore.com/scheduleappointment/932f19c8-6989-4716-93c5-c73ac31d511b">
           <button className="py-[2px] my-3 font-semibold border-2 border-customPink-600 rounded-[6px] hover:text-white text-customPink-600 px-3 bg-white hover:bg-customPink-600 group-hover:bg-customPink-600 group-hover:text-white">
             Book Now

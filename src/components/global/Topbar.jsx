@@ -30,7 +30,7 @@ const Topbar = () => {
                   </button>
                 </div>
               </div>
-              <div className="relative group">
+              {/* <div className="relative group">
                 <button className="py-1  my-3 font-semibold border-2 border-blue-600 rounded-lg hover:text-white text-blue-600 px-4 bg-white hover:bg-blue-600 group-hover:bg-blue-600 group-hover:text-white">
                   NHS
                 </button>
@@ -47,7 +47,7 @@ const Topbar = () => {
 
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="pl-4 flex items-center">
               <FiMapPin className="mr-2" /> 7-9 Branch Rd, Armley, Leeds LS12 3AQ, UK

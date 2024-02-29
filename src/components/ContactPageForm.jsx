@@ -39,12 +39,12 @@ const ContactPageForm = () => {
               </a>
             </h3>
             <h4>0800 099 6375</h4>
-            <h2>NHS Appointments </h2>
+            {/* <h2>NHS Appointments </h2>
             <h3>
               For NHS Appointments and Enquiries –{" "}
               <a href="mailto:nhs@parishdental.co.uk">nhs@parishdental.co.uk</a>
             </h3>
-            <h4>0113 263 8509</h4>
+            <h4>0113 263 8509</h4> */}
             <h2>Accounts Team</h2>
             <h3>
               For Accounts Team –{" "}

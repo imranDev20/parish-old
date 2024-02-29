@@ -52,8 +52,7 @@ const Schedule = () => {
         <a href={"tel:08000996375"}>0800 099 6375</a>
       </a>
       <a className="  bg-primary w-full block rounded-b text-center py-6 text-white">
-        FOR NHS PATIENTS CALL <a href={"tel:001132638509"}>0013 263 8509</a>{" "}
-        between Monday to Friday 9am to 5am, and for NHS EMERGENCIES call{" "}
+        for NHS emergencies call{" "}
         <a href={"tel:111"}>111</a>
       </a>
     </aside>
