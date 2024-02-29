@@ -69,7 +69,7 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="hero-slide77">
             <div className="content">
               <div className="right">
@@ -77,6 +77,9 @@ export default function App() {
                   Teeth for Palestine
                 </h3>
                 <h2 className="text-3xl sm:text-4xl md:text-6xl text-primary font-semibold capitalize my-2">
+                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
+                    100% of NHS profits will be
+                  </span>
                   <span className="inline-block bg-white my-1 px-3 py-2 rounded">
                     100% of NHS profits will be
                   </span>
@@ -103,7 +106,7 @@ export default function App() {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <Energency />
         </SwiperSlide>
