@@ -32,7 +32,7 @@ const Header = () => {
                 0113 322 8354 - Pvt.
               </Button>
             </a>
-            <a
+            {/* <a
               href="tel:01132638509"
               className="mr-2  font-medium text-gray-600 ml-3 block xl:hidden "
             >
@@ -42,7 +42,7 @@ const Header = () => {
               >
                 0113 263 8509 - NHS
               </Button>
-            </a>
+            </a> */}
           </div>
 
           <Burger open={openDrawer} setOpen={setOpenDrawer} />
