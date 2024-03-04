@@ -86,7 +86,7 @@ const Header = () => {
                   </button>
                 </div>
               </div>
-              <div className="relative group">
+              {/* <div className="relative group">
                 <button className="py-[2px] my-3 font-semibold border-2 border-blue-600 rounded-[6px] hover:text-white text-blue-600 px-3 bg-white hover:bg-blue-600 group-hover:bg-blue-600 group-hover:text-white">
                   NHS
                 </button>
@@ -107,7 +107,7 @@ const Header = () => {
                     </a>
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className=" flex justify-end pl-3 w-[10%]">
