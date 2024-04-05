@@ -1,9 +1,9 @@
-// require("dotenv").config({
-//   path: `.env.${process.env.NODE_ENV}`,
-// });
 require("dotenv").config({
-  path: `.env`,
+  path: `.env.${process.env.NODE_ENV}`,
 });
+// require("dotenv").config({
+//   path: `.env`,
+// });
 
 module.exports = {
   trailingSlash: "never",
@@ -17,10 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "G-T2C15BBVH3",
-          "G-RH3TKZ2YCS"
-        ],
+        trackingIds: ["G-T2C15BBVH3", "G-RH3TKZ2YCS"],
         pluginConfig: {
           head: true,
         },
